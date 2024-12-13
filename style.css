@@ -1,0 +1,448 @@
+body.index{
+    background: linear-gradient(rgba(23, 22, 22, 0.5), rgba(12, 12, 12, 0.5)),
+    url('background.jpg');
+    background-size: cover;
+    background-size: 1274px 650px;
+}
+body{
+    margin: 0;
+}
+.home-parent-div{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: "Handlee", cursive;
+}
+.home-children-div{
+    color: #fce1e4;
+    width: 50%;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.home-home-contain a{
+    color: #fce1e4;
+    text-decoration: none;
+    font-size: 27px; 
+    letter-spacing: 3px;
+}
+
+.home-children-div h1{
+    font-size: 26px;
+}
+.home-children-div p{
+    font-size: 25px;
+    text-align: center;
+}
+#left-home-child{
+    margin-top: 39px; 
+}
+#right-home-child{
+    margin-top: 30px;
+}
+
+.home-home-contain{
+    margin-bottom: 30px;
+}
+.home-to-about-btn{
+    border: 1px solid #fce1e4;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer; 
+}
+a.home-to-about-btn{
+    text-decoration: none;
+    text-align: center;
+}
+.to-about-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+.clearfix{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.body-about{
+    width: 100%;
+    font-family: "Handlee", cursive;
+    height: 870px;
+    background-color: #fff1f5;
+}
+.navigasi{
+    width: 100%;
+}
+.navigasi-contain{
+    width: 990px;
+    padding: 20px 0px;
+    color: white;
+    margin: auto;
+    font-size: 22px;
+    margin-left: 35px;
+}
+.navigasi-contain a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.about-parent-div{
+    width: 1200px;
+    margin: auto;
+
+}
+.about-title-div{
+    margin-top: 17px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.about-children-div{
+    width: 50%;
+    box-sizing: border-box;
+}
+.about-logo-containt{
+    width: 60%;
+    margin: auto;
+}
+.about-logo-containt img{
+    border-radius: 50%;
+}
+.about-children-div{
+    font-size: 17px;
+}
+.body-contact{
+    width: 100%;
+    height: 100vh; 
+}
+.body-contact .navigasi{
+    font-family: "Handlee", cursive;
+}
+.body-contact-half{
+    font-family: "Handlee", cursive;
+    font-size: 10px;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 100px; 
+    height: 1000px;
+    background-color: #ffdbe7;
+    color: white;
+}
+.black-bgcolor{
+    background-color: #f9cadb; 
+}
+.absolute{
+    position: absolute;
+}
+.contact-form-container{
+    font-family: "Handlee", cursive;
+    width: 80%;
+    margin: 10px 85px;
+    font-size: 16px;
+} 
+.contact-text{
+    font-size: 20px;
+}
+.form-contact{
+    margin-top: 30px; 
+}
+.form-contact label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.form-contact input{
+    line-height: 2;
+    font-size: 15px;
+    width: 250px;
+    margin-bottom: 13px;
+}
+.form-contact input[type="submit"]{
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #fce1e4;
+    border-radius: 8px;
+    background-color: #ff95b1;
+    color: white;
+    padding: 5px 0px;
+    font-size: 16px;
+    width: 170px;
+}
+.map-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+}
+.map{
+    font-family: "Roboto", serif;
+    width: 100%;
+    height: 210px;
+    background-color: #9cadce;
+    color: #edf2fb;
+    font-size: 28px; 
+}
+
+.branch-contact{
+    margin: 200px auto; 
+    font-size: 9px;
+    color: black;
+}
+.branch-contact a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.contact-cabang a{
+    letter-spacing: 2;
+    color: black;
+}
+
+.body-newarrival{
+    font-family: "Handlee", cursive;
+    width: 100%;
+    height: 900px; 
+    background-color: #fff1f5; 
+}
+.newarrival-parent-div{
+    width: 980px; 
+    margin: 11px auto;
+}
+.newarrival-children-div{
+    width: 50%;
+    box-sizing: border-box;
+    position: relative; 
+}
+.newarrival-title-div{
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: black;
+}
+.newarrival-main-product-aili{
+    width: 55%;
+    margin: auto; 
+}
+.newarrival-main-product-image img{
+    border-radius: 50%;
+}
+.newarrival-main-product-name h2{
+    text-align: center; 
+    font-size: 21spx;
+    letter-spacing: 1px;
+}
+.newarrival-discount-contain{
+    display: inline-block;
+    width: 110px;
+    color: red;
+    position: absolute;
+    top: 80px; 
+    right: 38px;
+}
+.newarrival-discount-number{
+    font-size: 45px;
+}
+.newarrival-discaunt-text{
+    font-size: 34px;
+    text-align: right;
+}
+.newarrival-item-containt{
+    width: 90%; 
+    margin: auto;
+    background-color: #ffdeea;
+}
+.newarrival-item-containt:first-child{
+    margin: 20px auto;
+}
+.newarrival-item-image{
+    width: 40%;
+    margin: 5px; 
+    box-sizing: border-box;
+}
+.newarrival-item-desc{
+    width: 50%;
+    box-sizing: border-box;
+    margin: 16px;
+    text-align: right;
+    font-size: 16px;
+}
+.newarrival-item-desc h2:last-child{
+    color: blue;
+}
+.newarrival-item-containt:nth-child(2) .newarrival-item-desc{
+    text-align: left;
+}
+.text-newarrival p{
+    text-align: 12px;
+    font-size: 20;
+}
+.body-product{
+    font-family: "Handlee", cursive;
+    width: 100%;
+    height: 2400px;
+    background-color: #fff1f5;
+}
+.product-parent-div{
+    width: 1000px;
+    margin: 25px auto;
+}
+.product-children-div-left{
+    width: 20%;
+    box-sizing: border-box;
+}
+.product-children-div-right{
+    width: 75%; 
+    box-sizing: border-box;
+}
+.brand-contain{
+    background-color: #ffdeea;
+    width: 100%;
+}
+
+.brand-item-contain{
+    padding: 13px 25px;
+}
+
+.brand-item-contain h2{
+    font-size: 23px;
+}
+.brand-item-contain li{
+    list-style-type: none;
+    line-height: 1.9;
+    font-size: 20px;
+}
+.brand-item-contain li a{
+    text-decoration: none;
+    color: black; 
+
+}
+.brand-item-contain li a:hover{
+    color: white;
+    font-size: 20px;
+}
+.product-item-contain{
+    width: 20%;
+    display: inline-block;
+    margin: 2%;
+}
+.product-item-image-contain{
+    margin-bottom: 9px;
+}
+.product-item-name-contain{
+    margin-bottom: 9spx;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+.product-item-desc-contain{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 9px;
+}
+.product-item-price-contain{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic; 
+}
+.product-link{
+    margin-top: 35px;
+    margin-inline: 190px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #ff95b1;
+    color: white;
+    padding: 5px 28px;
+    font-size: 16px;
+    cursor: pointer; 
+    width: 70px;
+    height: 25px;
+    margin-left: 12px; 
+    margin: 20px auto;
+}
+.product-link a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 14px;
+}
+
+
+
+
+
+
+
+/* Layar kecil (ponsel) */
+@media only screen and (max-width: 480px) {
+    /* Kode CSS */
+  }
+
+  /* Layar sedang (tablet) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Kode CSS */
+  }
+  
+/* Layar besar (desktop) */
+@media only screen and (min-width: 769px) {
+    /* Kode CSS */
+  }
+  
+
+  /* Mengatur lebar dan tinggi */
+img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Mengatur lebar konten */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* Mengatur tata letak fleksibel */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item {
+    flex-basis: 20%;
+    margin: 10px;
+  }
+
+  /* Mengatur ukuran font */
+body {
+    font-size: 16px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+/* Mengatur spasi */
+.container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .item {
+    margin-bottom: 10px;
+  }
+  
+    
+   
+
+
+
+
+
